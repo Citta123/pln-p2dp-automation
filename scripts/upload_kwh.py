@@ -67,6 +67,4 @@ def upload_kwh(data):
                 if attempt < retries - 1:
                    logger.info(f"Mencoba kembali mengupload foto PN02 untuk ID Pelanggan {entry['idpel']} setelah {backoff} detik...")
                 else:
-                    logger.error(
-                        f"Gagal mengupload data untuk ID Pelanggan {
-                            entry['idpel']} setelah {retries} percobaan.")
+                    logger.error(f"Gagal mengupload data untuk ID Pelanggan {entry['idpel']} setelah {retries} percobaan.")
