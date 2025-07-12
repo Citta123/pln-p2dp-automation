@@ -8,7 +8,7 @@ logger = setup_logger(os.path.join(base_dir, '..', 'log', 'project.log'))
 
 
 def fetch_and_save_data(username, tgllogin, unitup, csv_filename):
-    API_URL_GET = "http://portalapp.iconpln.co.id:8000/api-v2-acmt-prod/mobile/getAllStanPrabayar"
+    API_URL_GET = "http://API"
 
     payload = {
         'username': username,
