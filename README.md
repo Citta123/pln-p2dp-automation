@@ -112,4 +112,4 @@ Feel free to reach out via [plusenergi77@gmail.com] or browse other projects on 
 
 ## 📄 License
 
-This project is licensed under the MIT License – use it freely in personal or commercial applications.
+This project is licensed under the Apache License 2.0 – you are free to use, modify, and distribute it with proper attribution. See the LICENSE file for full details.
