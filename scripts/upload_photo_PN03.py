@@ -9,7 +9,7 @@ logger = setup_logger(os.path.join(base_dir, '..', 'log', 'project.log'))
 
 
 def upload_entry(entry):
-    API_URL_POST = "http://portalapp.iconpln.co.id:8000/api-v2-acmt-prod/mobile/uploadFoto3"
+    API_URL_POST = "API"
 
     headers = {
         'User-Agent': "Apache-HttpClient/UNAVAILABLE (java 1.4)",
