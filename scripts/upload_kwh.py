@@ -8,7 +8,7 @@ logger = setup_logger(os.path.join(base_dir, '..', 'log', 'project.log'))
 
 
 def upload_kwh(data):
-    API_URL_POST = "http://portalapp.iconpln.co.id:8000/api-v2-acmt-prod/mobile/setStanPrabayar"
+    API_URL_POST = "http://API"
 
     headers = {
         'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 10; Redmi Note 9 Pro MIUI/V12.0.3.0.QJZMIXM)",
